@@ -1,0 +1,199 @@
+shop:
+  categories:
+    blocks:
+      slot: 10
+      item:
+      type: COBBLESTONE
+    minerals:
+      slot: 10
+      item:
+      type: IRON_INGOT
+  items:
+    STONE;0:
+      category: blocks
+      buy: 50
+      sell: 5
+    STONE;1:
+      category: blocks
+      buy: 65
+    STONE;3:
+      category: blocks
+      buy: 65
+    STONE;5:
+      category: blocks
+      buy: 65
+    GRASS;0:
+      category: blocks
+      buy: 250
+    DIRT;0:
+      category: blocks
+      buy: 125
+    DIRT;1:
+      category: blocks
+      buy: 160
+    DIRT;2:
+      category: blocks
+      buy: 160
+    COBBLESTONE;0:
+      category: blocks
+      buy: 30
+      sell: 3
+    SAND;0:
+      category: blocks
+      buy: 150
+    SAND;1:
+      category: blocks
+      buy: 165
+    GRAVEL;0:
+      category: blocks
+      buy: 100
+    LOG;0:
+      category: blocks
+      buy: 75
+      sell: 7.5
+    LOG;1:
+      category: blocks
+      buy: 75
+      sell: 7.5
+    LOG;2:
+      category: blocks
+      buy: 75
+      sell: 7.5
+    LOG;3:
+      category: blocks
+      buy: 75
+      sell: 7.5
+    SPONGE;0:
+      category: blocks
+      buy: 1000
+    BRICK;0:
+      category: blocks
+      buy: 200
+    OBSIDIAN;0:
+      category: blocks
+      buy: 1000
+      sell: 100
+    ICE;0:
+      category: blocks
+      buy: 100
+    SNOW;0:
+      category: blocks
+      buy: 75
+    NETHERRACK;0:
+      category: blocks
+      buy: 50
+    SOUL_SAND;0:
+      category: blocks
+      buy: 150
+    GLOWSTONE;0:
+      category: blocks
+      buy: 200
+    MYCEL;0:
+      category: blocks
+      buy: 250
+    NETHER_BRICK;0:
+      category: blocks
+      buy: 250
+    ENDER_STONE;0:
+      category: blocks
+      buy: 300
+    QUARTZ_BLOCK;0:
+      category: blocks
+      buy: 300
+    PRISMARINE;0:
+      category: blocks
+      buy: 400
+    PRISMARINE;1:
+      category: blocks
+      buy: 400
+    PRISMARINE;1:
+      category: blocks
+      buy: 400
+    SEA_LANTERN;0:
+      category: blocks
+      buy: 500
+    PACKED_ICE;0:
+      category: blocks
+      buy: 250
+      
+    COAL;0:
+      category: minerals
+      buy: 100
+      sell: 10
+    IRON_INGOT;0:
+      category: minerals
+      buy: 400
+      sell: 40
+    
+    
+    
+    
+    
+    
+    
+    
+chat:
+  player:
+    Askingg: 
+      chat: '&b&ki&3&oOwner&b&ki&b %player_displayname%&7 »&f %message%'
+      hover:
+      - '%player%'
+      click: '/msg %player% '
+  permission:
+    admin:
+      chat: '&2&ki&a&oAdmin&2&ki&a %player_displayname%&7 »&f %message%'
+      hover:
+      - '%player%'
+      click: '/msg %player% '
+    dev:
+      chat: '&e&ki&6&oDev&e&ki&e %player_displayname%&7 »&f %message%'
+      hover:
+      - '%player%'
+      click: '/msg %player% '
+    builder:
+      chat: '&d&ki&5&oBuilder&d&ki&d %player_displayname%&7 »&f %message%'
+      hover:
+      - '%player%'
+      click: '/msg %player% '
+    mod:
+      chat: '&3&ki&9&oMod&3&ki&3 %player_displayname%&7 »&f %message%'
+      hover:
+      - '%player%'
+      click: '/msg %player% '
+    helper:
+      chat: '&5&ki&d&oHelper&5&ki&d %player_displayname%&7 »&f %message%'
+      hover:
+      - '%player%'
+      click: '/msg %player% '
+    default:
+      chat: '&f%player_displayname%&7 » %message%'
+      hover:
+      - '%player%'
+      click: '/msg %player% '
+tab:
+  player:
+    Askingg: '&b&ki&3&oOwner&b&ki&b %player%'
+  permission:
+    admin: '&2&ki&a&oAdmin&2&ki&a %player%'
+    dev: '&e&ki&6&oDev&e&ki&e %player%'
+    builder: '&d&ki&5&oBuilder&d&ki&d %player%'
+    mod: '&3&ki&9&oMod&3&ki&3 %player%'
+    helper: '&5&ki&d&oHelper&5&ki&d %player%'
+    default: '&f%player%'
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

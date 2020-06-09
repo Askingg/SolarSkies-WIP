@@ -1,0 +1,22 @@
+name: Solar-Skies
+author: Askingg
+version: 1.0.0
+main: dev.askingg.solar.main.Solar
+desciprion: Custom Features for SolarSkies by Askingg.
+
+commands:
+  island:
+    aliases: [islands, is]
+    description: Islands base command.
+  shop:
+    aliases: [shops]
+    description: Open the store.
+  spawners:
+    aliases: [spawner]
+    description: Spawner base command.
+  solarcoin:
+    aliases: [solarcoins, coin, sc]
+    description: SolarCoins Base Command.
+  luckyblocks:
+    aliases: [luckyblock, lbs, lb]
+    description: LuckyBlocks Base Command.
